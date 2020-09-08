@@ -14,5 +14,14 @@ function login(e) {
             tel: document.querySelector('.login-form input[name=tel]').value
         })
     })
-    .then(_ => document.querySelector('.login-form').reset());
-}
+    
+
+// document.getElementsByClassName(:nav-link).addEventListener('click', hideCollapseMenu);
+
+//   function hideCollapseMenu(){
+//       document.getElementsByClassName("navbarNav").classList.remove("show")
+//   }
+
+//   $('.navbar-nav>li>a').on('click', function(){
+//     $('.navbar-collapse').collapse('hide');
+// });

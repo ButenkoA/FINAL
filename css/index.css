@@ -19,9 +19,13 @@
         width: 100%;
     }
 
-    /* .nav-link {
-        float: right;
-    } */
+.nav-link:hover {
+    width: 120px;
+    background: linear-gradient(to right, #370584 0%, #000 100%);
+    color: white;
+    padding-left: 10px;
+    border-radius: 7px;
+}
     
     body {
         background-image: url(img/background.png);
