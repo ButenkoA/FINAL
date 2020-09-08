@@ -1,0 +1,180 @@
+    @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet"');
+     :root {
+        font-family: 'Audiowide', cursive;
+        --main-color: white;
+        --accent-color: #000;
+        scroll-behavior: smooth;
+    }
+    
+    header {
+        top: 0;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    .navbar {
+        font-family: 'audiowide', cursive;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    body {
+        background-image: url(img/background.png);
+        background-color: #370584;
+        max-width: 980px;
+        margin: auto;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: fixed;
+        align-items: center;
+        justify-content: center;
+        top: 200px;
+        bottom: 200px;
+        overflow-y: auto;
+    }
+    /* main {
+    top: 200px;
+    bottom: 200px;
+    overflow-y: auto;
+} */
+    
+    .logo {
+        display: flex;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+    
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .banner h1 {
+        font-family: 'audiowide', cursive;
+        margin: 30px;
+        color: var(--main-color);
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-size: 5rem;
+        text-align: center;
+    }
+    
+    .banner p {
+        font-family: 'audiowide', cursive;
+        width: 70%;
+        background-color: transparent;
+        text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000 0 -0.5px #000;
+        border-radius: 5px;
+        padding: 20px;
+        color: var(--main-color);
+        text-align: center;
+        size: 3rem;
+        margin: -10px;
+    }
+    
+    .chapters {
+        background-color: #151444;
+        border: 1px solid #FFF;
+        border-radius: 30px;
+        padding: 3px;
+        color: var(--main-color);
+        text-align: center;
+        size: 4rem;
+        margin: 50px 0px 50px 0px;
+        box-shadow: 4px 4px 8px 0px black;
+    }
+    
+    .text-about {
+        color: var(--main-color);
+        text-align: justify;
+        font-size: 1.5rem;
+        text-align: center;
+        text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000 0 -0.5px #000;
+    }
+    
+    .carousel {
+        border: 1px solid white;
+        border-radius: 30px;
+        box-shadow: 4px 4px 8px 0px black;
+    }
+    
+    .carousel-inner {
+        border-radius: 30px;
+    }
+    
+    .card {
+        border-radius: 30px;
+        margin: 2px;
+        box-shadow: 4px 4px 8px 0px black;
+    }
+    
+    .card-img-top {
+        border-radius: 30px;
+        margin-top: 10px;
+        box-shadow: 4px 4px 8px 0px black;
+    }
+    
+    .card-body {
+        justify-content: space-around;
+        text-align: center;
+        font-family: 'audiowide', cursive;
+        color: var(--main-color);
+    }
+    
+    .card-youtube {
+        border: none
+    }
+    
+    .btn {
+        background-color: #370584;
+        box-shadow: 4px 4px 8px 0px black;
+    }
+    
+    .youtube {
+        width: 100%;
+        box-shadow: 4px 4px 8px 0px black;
+    }
+    
+    .img-fluid {
+        max-width: 200px;
+        max-height: 200 px;
+        box-shadow: 4px 4px 8px 0px black;
+    }
+    
+    .partners {
+        display: block;
+        justify-content: space-around;
+    }
+    
+    .nav-link {
+        color: white;
+    }
+    
+    .contact-links {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contact-img {
+        width: 50%;
+        border-radius: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    .dev-link {
+        display: flex;
+        justify-content: center;
+        color: var(--main-color);
+        margin: 10px;
+    }
+    
+    .dev-link a {
+        color: var(--main-color);
+    }
