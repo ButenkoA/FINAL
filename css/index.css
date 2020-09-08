@@ -7,8 +7,6 @@
     }
     
     header {
-        top: 0;
-        height: 200px;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
@@ -20,6 +18,10 @@
         justify-content: space-around;
         width: 100%;
     }
+
+    /* .nav-link {
+        float: right;
+    } */
     
     body {
         background-image: url(img/background.png);
@@ -35,16 +37,13 @@
         bottom: 200px;
         overflow-y: auto;
     }
-    /* main {
-    top: 200px;
-    bottom: 200px;
-    overflow-y: auto;
-} */
     
     .logo {
-        display: flex;
+        padding: 50px;
+        display: block;
         margin: 0 auto;
         border-radius: 50%;
+
     }
     
     .banner {
@@ -56,7 +55,6 @@
     
     .banner h1 {
         font-family: 'audiowide', cursive;
-        margin: 30px;
         color: var(--main-color);
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         font-size: 5rem;
@@ -65,7 +63,6 @@
     
     .banner p {
         font-family: 'audiowide', cursive;
-        width: 70%;
         background-color: transparent;
         text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000 0 -0.5px #000;
         border-radius: 5px;
@@ -73,7 +70,7 @@
         color: var(--main-color);
         text-align: center;
         size: 3rem;
-        margin: -10px;
+        width: 70%;
     }
     
     .chapters {
@@ -86,9 +83,11 @@
         size: 4rem;
         margin: 50px 0px 50px 0px;
         box-shadow: 4px 4px 8px 0px black;
+        font-family: 'audiowide', cursive;
     }
     
     .text-about {
+        font-family: 'audiowide', cursive;
         color: var(--main-color);
         text-align: justify;
         font-size: 1.5rem;
